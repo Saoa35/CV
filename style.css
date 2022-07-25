@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+* {
+box-sizing: border-box;
+}
+
+.cv-container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+   display: flex;
+   justify-content: space-around;
+}
+
+/* LEFT SITE */
+
+.div-left {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    height: 1400px;
+    background-color: #ededed;
+    float: left;
+    border-radius: 20px;
+    position: relative;
+}
+
+.wrapper-photo {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 23%;
+    border-radius: 20px 20px 0px 0px;
+    border: 100px solid transparent; border-left: 100px solid #1f85eb; border-top: 100px solid #1f85eb;
+}
+
+.photo-div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.name-profession {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.name-profession p:first-child {
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: #1f85eb;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    /* margin-top: 25px;
+    margin-bottom: 0; */
+}
+
+.profession {
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #2ca59f;
+    font-weight: 600;
+    font-family: "Lato";
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom:0;
+}
+
+.contacts {
+    position: relative;
+    margin-top: 40px;
+}
+
+.contacts p {
+    text-align: center;
+    font-size: 16px;
+    color: #5e5a5a;
+    font-weight: 700;
+    font-family: "Open Sans"
+}
+
+.contacts p span {
+    display: block;
+    color: #7c7777;
+}
+
+.blue-block-1 {
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background-color:#1fcceb;
+    left: 156px;
+    top: 42px;
+}
+
+.blue-block-2 {
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background-color:#1fcceb;
+    left: 156px;
+    bottom: 509px;
+}
+
+.blue-block-3 {
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background-color:#1fcceb;
+    left: 156px;
+    bottom: 157px;
+}
+
+.languages-list {
+    margin-top: 40px;
+}
+
+ h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color:  #5e5a5a;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.languages-list ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+.lang-element {
+    display: flex;
+    transform:rotate(45deg);
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    background-color:rgb(192, 191, 191);
+    width: 95px;
+    height: 95px;
+    margin: 20px 20px;
+}
+
+.lang-element span {
+    transform: rotate(-45deg);
+    color: rgb(60, 100, 112);
+    font-weight: bold;
+    font-size: large;
+}
+
+.wrapper-hobby {
+    position: relative;
+}
+
+.wrapper-hobby p {
+    position: absolute;
+}
+
+.wrapper-hobby p img{
+    width: 80px;
+    height: 80px;
+}
+
+.skydiving {
+    left: 135px;
+    bottom:130px;
+}
+
+.football {
+    left: 255px;
+    bottom:130px;
+}
+
+.volleyball {
+    left: 365px;
+    bottom:130px;
+}
+
+.deskript {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    color: rgb(120, 121, 120);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* RIGHT SITE */
+
+.div-right {
+    width: 64%;
+    height: 1400px;
+    background-color: #ededed;
+    border-radius: 20px;
+    padding: 35px;
+}
+
+.heading {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color:  #5e5a5a;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-align:start;
+    text-transform: uppercase;
+}
+.blue-block-4 {
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background-color:#1fcceb;
+    top:105px;
+}
+
+.work_exp {
+    list-style: none;
+}
+
+.position_company {
+    display: flex;
+    justify-content:left;
+    font-size: 18px;
+    color: #404040;
+    font-weight: 700;
+    font-family: "Raleway";
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.position_company span:first-child {
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight:550;
+}
+
+.position_company span:last-child {
+    margin-left: 50px;
+}
+
+.duration-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.duration-description  {
+    display: flex;
+    font-size: 15px;
+    color: #404040;
+    font-family:Tahoma, sans-serif;
+    line-height: 25px;
+}
+
+.duration-description {
+    margin-left: 60px;
+}
+
+.duration-description span:last-child {
+    margin-left: 130px;
+    text-align: justify;
+}
+
+
+.first-pos .duration-description span:last-child {
+    margin-left: 65px;
+}
+
+.blue-block-5 {
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background-color:#1fcceb;
+    top:896px;
+}
+
+.education {
+    list-style: none;
+}
+
+.univ-name_duration {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    color: #404040;
+    font-weight: 700;
+    font-family: "Raleway";
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+
+.univ-name_duration span:last-child {
+    font-weight: normal;
+    font-family:Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.specialization {
+    display: flex;
+    font-size: 15px;
+    color: #404040;
+    font-family:Tahoma, sans-serif;
+    line-height: 25px;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.specialization span:last-child {
+    margin-right: 25px;
+}
+
+.blue-block-6 {
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background-color:#1fcceb;
+    top:1165px;
+}
+
+.div-right p {
+    font-size: 15px;
+    color: #404040;
+    font-family:Tahoma, sans-serif;
+    line-height: 25px;
+    margin-left: 55px;
+}
