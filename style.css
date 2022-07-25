@@ -17,6 +17,7 @@ main {
    justify-content: space-around;
 }
 
+
 /* LEFT SITE */
 
 .div-left {
@@ -53,16 +54,15 @@ main {
 
 
 .name-profession p:first-child {
-    font-size: 45px;
+    /* font-size: 45px; */
+    font-size: 300%;
     letter-spacing: 2px;
     color: #1f85eb;
     font-family:'Courier New', Courier, monospace;
-    font-weight: 400;
+    /* font-weight: 400; */
     text-align: center;
     text-transform: uppercase;
     margin: 0;
-    /* margin-top: 25px;
-    margin-bottom: 0; */
 }
 
 .profession {
@@ -80,6 +80,10 @@ main {
 .contacts {
     position: relative;
     margin-top: 40px;
+}
+
+.leftDivHr {
+    width: 80%;
 }
 
 .contacts p {
@@ -218,6 +222,11 @@ main {
     text-align:start;
     text-transform: uppercase;
 }
+
+.rightDivHr {
+    width: 100%;
+}
+
 .blue-block-4 {
     position: absolute;
     width: 40px;
