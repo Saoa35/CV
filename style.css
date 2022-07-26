@@ -24,11 +24,11 @@ main {
     display: flex;
     flex-direction: column;
     width: 32%;
-    height: 1400px;
+    /* height: 1400px; */
     background-color: #ededed;
-    float: left;
+    /* float: left; */
     border-radius: 20px;
-    position: relative;
+    /* position: relative; */
 }
 
 .wrapper-photo {
@@ -83,7 +83,9 @@ main {
 }
 
 .line {
-    
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 
 .leftDivHr {
@@ -103,8 +105,8 @@ main {
     color: #7c7777;
 }
 
-.blue-block-1 {
-    /* position: absolute; */
+.blue-block {
+    position: absolute;
     width: 40px;
     height: 5px;
     background-color:#1fcceb;
