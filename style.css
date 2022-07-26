@@ -82,6 +82,10 @@ main {
     margin-top: 40px;
 }
 
+.line {
+    
+}
+
 .leftDivHr {
     width: 80%;
 }
@@ -100,12 +104,12 @@ main {
 }
 
 .blue-block-1 {
-    position: absolute;
+    /* position: absolute; */
     width: 40px;
     height: 5px;
     background-color:#1fcceb;
-    left: 156px;
-    top: 42px;
+    /* left: 156px;
+    top: 42px; */
 }
 
 .blue-block-2 {
