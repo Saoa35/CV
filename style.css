@@ -110,27 +110,8 @@ main {
     width: 40px;
     height: 5px;
     background-color:#1fcceb;
-    /* left: 156px;
-    top: 42px; */
 }
 
-.blue-block-2 {
-    position: absolute;
-    width: 40px;
-    height: 5px;
-    background-color:#1fcceb;
-    left: 156px;
-    bottom: 509px;
-}
-
-.blue-block-3 {
-    position: absolute;
-    width: 40px;
-    height: 5px;
-    background-color:#1fcceb;
-    left: 156px;
-    bottom: 157px;
-}
 
 .languages-list {
     margin-top: 40px;
