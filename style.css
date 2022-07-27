@@ -182,7 +182,7 @@ main {
     height: 100%;
     background-color: #ededed;
     border-radius: 20px;
-    /* padding: 35px; */
+    padding: 35px 35px 0 35px;
 }
 
 .heading {
@@ -206,7 +206,7 @@ main {
 }
 
 .work_exp {
-    list-style: none;
+    display: grid;
 }
 
 .position_company {
