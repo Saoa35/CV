@@ -207,6 +207,11 @@ main {
 
 .work_exp {
     display: grid;
+    gap: 50px 50px;
+
+    grid-template-columns: repeat(2, 2);
+    gap: 10px;
+    /* grid-auto-rows: minmax(100px, auto); */
 }
 
 .position_company {
