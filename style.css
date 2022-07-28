@@ -231,41 +231,6 @@ main {
     line-height: 25px;
 }
 
-/* .position_company span:first-child {
-   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-weight:550;
-}
-
-.position_company span:last-child {
-    margin-left: 50px;
-}
-
-.duration-description {
-    display: flex;
-    justify-content: space-between;
-}
-
-.duration-description  {
-    display: flex;
-    font-size: 15px;
-    color: #404040;
-    font-family:Tahoma, sans-serif;
-    line-height: 25px;
-}
-
-.duration-description {
-    margin-left: 60px;
-}
-
-.duration-description span:last-child {
-    margin-left: 130px;
-    text-align: justify;
-}
-
-
-.first-pos .duration-description span:last-child {
-    margin-left: 65px;
-} */
 
 .education {
     display: block;
