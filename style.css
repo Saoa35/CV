@@ -207,25 +207,31 @@ main {
 
 .work_exp {
     display: grid;
-    gap: 50px 50px;
-
-    grid-template-columns: repeat(2, 2);
-    gap: 10px;
-    /* grid-auto-rows: minmax(100px, auto); */
-}
-
-.position_company {
-    display: flex;
-    justify-content:left;
-    font-size: 18px;
-    color: #404040;
-    font-weight: 700;
-    font-family: "Raleway";
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
     margin-top: 20px;
     margin-bottom: 15px;
 }
 
-.position_company span:first-child {
+/* .center {
+    text-align: center;
+} */
+
+.title {
+    font-size: 18px;
+    color: #404040;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+
+.description  {
+    font-size: 15px;
+    color: #404040;
+    font-family:Tahoma, sans-serif;
+    line-height: 25px;
+}
+
+/* .position_company span:first-child {
    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    font-weight:550;
 }
@@ -259,10 +265,10 @@ main {
 
 .first-pos .duration-description span:last-child {
     margin-left: 65px;
-}
+} */
 
 .education {
-    list-style: none;
+    display: block;
 }
 
 .univ-name_duration {
