@@ -62,6 +62,7 @@ main {
     text-align: center;
     text-transform: uppercase;
     margin: 0;
+    margin-bottom: 10px;
 }
 
 .profession {
@@ -212,10 +213,6 @@ main {
     margin-top: 20px;
     margin-bottom: 15px;
 }
-
-/* .center {
-    text-align: center;
-} */
 
 .title {
     font-size: 18px;
