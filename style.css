@@ -236,43 +236,10 @@ main {
     display: block;
 }
 
-.univ-name_duration {
-    display: flex;
-    justify-content: space-around;
-    font-size: 18px;
-    color: #404040;
-    font-weight: 700;
-    font-family: "Raleway";
+.education-description {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
     margin-top: 20px;
-    margin-bottom: 15px;
-    margin-left: 100px;
-}
-
-.univ-name_duration span:last-child {
-    font-weight: normal;
-    font-family:Tahoma, sans-serif;
-    font-size: 15px;
-    margin-left: 25px;
-}
-
-.specialization {
-    display: flex;
-    font-size: 15px;
-    color: #404040;
-    font-family:Tahoma, sans-serif;
-    line-height: 25px;
-    justify-content: space-around;
-    margin-left: 20px;
-}
-
-.specialization span:last-child {
-    margin-right: 25px;
-}
-
-.div-right p {
-    font-size: 15px;
-    color: #404040;
-    font-family:Tahoma, sans-serif;
-    line-height: 25px;
-    margin-left: 55px;
+    margin-bottom: 30px;
 }
