@@ -153,7 +153,8 @@ main {
 
 .skills-element span {
     transform: rotate(-45deg);
-    color: rgb(60, 100, 112);
+    color: #1f85eb;
+    /* color: rgb(60, 100, 112); */
     font-weight: bold;
     font-size: large;
 }
