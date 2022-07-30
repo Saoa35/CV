@@ -117,11 +117,6 @@ main {
     background-color:#1fcceb;
 }
 
-
-.skills-list {
-    margin-top: 40px;
-}
-
  h3 {
     font-size: 20px;
     letter-spacing: 1px;
@@ -153,32 +148,10 @@ main {
 
 .skills-element span {
     transform: rotate(-45deg);
-    color: #1f85eb;
-    /* color: rgb(60, 100, 112); */
+    /* color: #1f85eb; */
+    color: rgb(60, 100, 112);
     font-weight: bold;
     font-size: large;
-}
-
-.wrapper-hobby {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.hobby-img{
-    text-align: center; 
-}
-
-.hobby-img  img {
-    width: 80px;
-    height: 80px;
-}
-
-
-.deskript {
-    color: rgb(120, 121, 120);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -231,7 +204,6 @@ main {
     font-size: 15px;
     color: #404040;
     font-family:Tahoma, sans-serif;
-    line-height: 25px;
 }
 
 
@@ -245,4 +217,25 @@ main {
     gap: 10px;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+.wrapper-hobby {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hobby-img{
+    text-align: center; 
+}
+
+.hobby-img  img {
+    width: 60px;
+    height: 60px;
+}
+
+.deskript {
+    color: rgb(120, 121, 120);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
