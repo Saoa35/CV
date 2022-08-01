@@ -9,8 +9,6 @@ box-sizing: border-box;
 .cv-container {
     max-width: 1240px;
     max-height: 1754px;
-    /* width: 100%;
-    height: 100%; */
     margin: 0 auto;
 }
 
@@ -19,7 +17,7 @@ main {
    justify-content: space-around;
    width: 100%;
    height: 100%;
-   /* background-color: #ededed; */
+   border-radius: 20px;
 }
 
 
@@ -29,7 +27,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 34%;
-    height: 100%;
+    /* height: 100%; */
     background-color: #ededed;
     border:#1f85eb 2px solid;
     border-radius: 20px;
@@ -87,7 +85,7 @@ main {
 
 .contacts {
     position: relative;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .line-left {
@@ -111,6 +109,10 @@ main {
 .contacts p span {
     display: block;
     color: #7c7777;
+}
+
+.margin-top {
+    margin-top: 5px;
 }
 
 .blue-block {
@@ -151,7 +153,6 @@ main {
 
 .skills-element span {
     transform: rotate(-45deg);
-    /* color: #1f85eb; */
     color: rgb(60, 100, 112);
     font-weight: bold;
     font-size: large;
@@ -162,9 +163,11 @@ main {
 
 .div-right {
     width: 66%;
-    height: 100%;
+    /* height: 100%; */
     background-color: #ededed;
-    /* border:#1f85eb 2px solid; */
+    border-right:#5e5a5a 2px solid;
+    border-top: #5e5a5a 2px solid;
+    border-bottom: #5e5a5a 2px solid;
     border-radius: 20px;
     padding: 35px 35px 0 35px;
 }
@@ -218,9 +221,36 @@ main {
 .education-description {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 10px;
+    gap: 20px;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+.lanuage-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:5px;
+    text-align: center;
+    margin: 0;
+}
+
+.lang-items{
+    color: rgb(60, 100, 112);
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    padding: 10px;
+}
+
+.font-large {
+    font-size: large;
+}
+
+.line-he {
+    line-height: 20px;
+}
+
+.qualities {
+    display: flex;
+    justify-content: space-around;
 }
 
 .wrapper-hobby {
