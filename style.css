@@ -27,7 +27,6 @@ main {
     display: flex;
     flex-direction: column;
     width: 34%;
-    /* height: 100%; */
     background-color: #ededed;
     border:#1f85eb 2px solid;
     border-radius: 20px;
@@ -156,6 +155,7 @@ main {
     color: rgb(60, 100, 112);
     font-weight: bold;
     font-size: large;
+    text-align: center;
 }
 
 
@@ -163,7 +163,6 @@ main {
 
 .div-right {
     width: 66%;
-    /* height: 100%; */
     background-color: #ededed;
     border-right:#5e5a5a 2px solid;
     border-top: #5e5a5a 2px solid;
